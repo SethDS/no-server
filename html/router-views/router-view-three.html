@@ -1,0 +1,28 @@
+<div class="weather">
+    <div class="weather-top"></div>
+
+<navigate></navigate>
+
+<div class="weather-main">
+    <div class="weather-main-center">
+    <h1 class="weather-header" >Weather</h1>
+<select class="weather-select" ng-model="state">
+    <option>UT</option>
+</select>
+<input class="weather-input" ng-model="city">
+<button class="weather-button" ng-click="getWeatherData(state, city)">SUBMIT</button><br>
+City: {{weather.display_location.city}}<br>
+State: {{weather.display_location.state}}<br>
+Elevation: {{weather.display_location.elevation}}<br>
+Humidity: {{weather.relative_humidity}}<br>
+Temperature: {{weather.temperature_string}}<br>
+Weather: {{weather.weather}}<br>
+Wind Direction: {{weather.wind_dir}}<br>
+Wind Chill: {{weather.windchill_string}}<br>
+</div>
+</div>
+
+<!--<a href="http://www.wunderground.com"><img src="https://icons.wxug.com/logos/JPG/wundergroundLogo_4c_horz.jpg"></a>-->
+<app-foot></app-foot>
+
+</div>

@@ -1,0 +1,163 @@
+.gridStyle {
+    height: 50vh;
+}
+
+.home-main {
+    background-image: url("../pics/home-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    color: #99aabc;
+    font-family: sans-serif;
+}
+
+.star-wars {
+
+    background-image: url("../pics/star-wars-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: Cinzel Decorative;
+
+}
+
+.weather {
+    background-image: url("../pics/weather-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: Titillium Web;
+}
+.weather-top {
+    height: 68px;
+    width: 100vw;
+    background-color: #c1a894;
+    opacity: .2;
+    position: fixed;
+}
+
+.weather-main {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c1a894;
+    opacity: .4;
+    border-radius: 5%;
+    align-content: center;
+}
+.weather-main-center {
+    margin: 20px 20px 20px 20px;
+}
+.weather-header {
+    margin: auto;
+}
+.weather-select {
+    border: 2px solid black;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #c1a894;
+    outline: none;
+}
+.weather-input {
+    border: 2px solid black;
+    height: 30px;
+    font-family: Titillium Web;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #c1a894;
+    outline: none;
+}
+.weather-button {
+    border: 2px solid black;
+    height: 30px;
+    font-family: Titillium Web;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #c1a894;
+    outline: none;
+}
+
+.dir-one {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    height: 20px;
+    width: 100vw;
+    top: 40vh;
+}
+
+.state {
+    cursor: pointer;
+    font-family: Barrio;
+}
+.state-home {
+margin-left: 70px;
+    margin-top: 17px;
+}
+.state-one {
+margin-top: 160px;
+    margin-left: 200px;
+}
+.state-two {
+margin-top: -20px;
+    margin-left: 80px;
+}
+.state-three{
+margin-left: -19px;
+    margin-top: 113px;
+}
+.state-four {
+    margin-left: 200px;
+    margin-top: -170px;
+}
+.dir-two {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    color: white;
+    opacity: .2;
+    font-size: 10px;
+    cursor: pointer;
+}
+.dir-three {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    opacity: .2;
+}
+
+.dir-three-state {
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.star-wars-grid {
+    opacity: .2;
+    width: 80vw;
+    margin: auto;
+    color: black;
+
+}
+
+.star-wars {
+    color: black;
+}
+
+.state-one-header {
+    margin-left: 450px;
+}
+
+a{
+ text-decoration: none;
+}
